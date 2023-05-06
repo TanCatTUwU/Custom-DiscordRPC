@@ -9,6 +9,7 @@ A configurable Discord RPC
    npm i
    ```
 ## Config
+Since im too lazy to make a separate config file, you'll have to edit it inside 'Custom-DiscordRPC.js' file
 ```c
 const clientId = 'insert client id here'; //Insert client ID of your Discord app
 const title = '1st text'; // First text
