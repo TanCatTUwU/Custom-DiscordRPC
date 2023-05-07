@@ -5,7 +5,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "rpc": "node ./main.js 2>error.txt"
+    "rpc": "node ./Custom-DiscordRPC.js 2>error.txt"
   },
   "author": "",
   "license": "ISC",
