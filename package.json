@@ -1,16 +1,17 @@
 {
   "name": "custom-rpc",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "",
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "rpc": "node ./Custom-DiscordRPC.js"
+    "rpc": "node ./main.js 2>error.txt"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.2.0",
+    "console-title": "^1.1.0",
     "discord-rpc": "^4.0.1"
   }
 }
